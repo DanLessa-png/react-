@@ -1,0 +1,21 @@
+/*src\componentes\Footer\style.css*/
+
+.footer-container{
+   background: linear-gradient(135deg, #493b3b, #f57906);
+    color: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    
+
+
+}
+footer {
+  background-color: #9b4d00;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+}

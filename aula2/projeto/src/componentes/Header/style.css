@@ -1,0 +1,12 @@
+/*src\componentes\Header\style.css*/
+
+
+.header-container{
+   background: linear-gradient(135deg, #493b3b, #f57906);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;
+}
