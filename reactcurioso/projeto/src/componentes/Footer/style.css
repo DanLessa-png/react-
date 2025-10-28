@@ -1,0 +1,16 @@
+/*src\componentes\Footer\style.css*/
+
+
+.footer-container {
+  background-color: #f8f9fa00;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #e7e7e7;
+  font-family: Arial, sans-serif;
+  color: #0b0c0c;
+}
+
+.footer-container p {
+  margin: 0;
+  font-size: 14px;
+}

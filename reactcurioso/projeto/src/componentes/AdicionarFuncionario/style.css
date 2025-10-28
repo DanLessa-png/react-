@@ -1,0 +1,59 @@
+/*src\componentes\AdicionarFuncionario\style.css*/
+
+
+.container {
+  max-width: 400px; 
+  margin: 40px auto; 
+  padding: 20px;
+  background: linear-gradient(135deg, #7a6c5f, #cec5c5);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1),
+              0 8px 30px rgba(0, 0, 0, 0.2);
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.container input {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.container button {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  background: #333;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.container button:hover {
+  background: #000;
+}
+
+
+.central {
+  width: 65vw;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

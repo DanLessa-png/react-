@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background: url('https://wallpapers.com/images/high/plain-grey-background-bul543bl55ld3bur.webp')no-repeat center center fixed;
+background-size: cover;
+  color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+
+}
+.h1{
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.name
+{
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #8a7f75, #0c0b0a, #696859, #a4ac8e);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: brilho 4s infinite linear;
+}
+
+@keyframes brilho {
+  0% { background-position: 0%; }
+  100% { background-position: 300%; }
+}
+
